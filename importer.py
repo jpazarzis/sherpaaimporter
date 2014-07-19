@@ -4,6 +4,10 @@ import sys
 from sherpaaimporter import importusers
 '''
 added fields should be added in the format: name:value
+
+example of use:
+importer.py config.ini fakeco_roster.csv employer:FakeCo
+
 '''
 if __name__ == '__main__':
     
