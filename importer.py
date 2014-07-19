@@ -1,7 +1,8 @@
 #!/usr/bin/python
 
 import sys
-from sherpaaimporter import importusers
+from sherpaaimporter import sherpaahelper
+
 '''
 added fields should be added in the format: name:value
 
@@ -25,5 +26,5 @@ if __name__ == '__main__':
         key, value = sys.argv[i].split(":")
         added_fields[key] = value
 
-    importer = importusers.SherpaaImporter(config, added_fields)
+    importer = sherpaahelper.SherpaaHelper(config, added_fields)
     importer.process_file(csv_file)

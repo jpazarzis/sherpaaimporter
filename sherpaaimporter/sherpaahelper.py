@@ -1,3 +1,5 @@
+# sherpaahelper.py
+
 import csv
 import json
 import requests
@@ -5,7 +7,7 @@ import ConfigParser
 
 MAIN_INI_SECTION='sherpaa_importer_settings'
 
-class SherpaaImporter(object):
+class SherpaaHelper(object):
     def __init__(self, config_file, additional_fields = None):
         '''
         Creates a Sherpaa importer file 
