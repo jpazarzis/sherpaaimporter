@@ -1,1 +1,20 @@
 A coding a assignment for SHERPAA
+==================================
+
+There are two repos containing the solution.
+
+In this repo: https://github.com/jpazarzis/sherpaaimporter (which the current one),
+ I implemented the necessary utilities to send the CSV data to the the server.
+
+In this repo: https://github.com/jpazarzis/sherpaa_code_sample I implemented the necessary server- side changes.
+
+To run the sample you need to clone both repos and call 
+
+sudo python setup.py  develop
+
+under the sherpaaimporter directory.
+
+The script to import the data is importer.py
+
+The unit tests exist under sherpaautils/tests and can be run using nosetests
+
