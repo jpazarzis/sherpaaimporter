@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 import sys
-from sherpaaimporter import sherpaahelper
+from sherpaautils import sherpaahelper
 
 '''
 added fields should be added in the format: name:value
