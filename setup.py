@@ -13,6 +13,6 @@ setup(
     license = "BSD",
     keywords = "sherpa data import",
     url = "http://www,codingismycraft.com",
-    packages=['sherpaaimporter',],
+    packages=['sherpaautils',],
     long_description=read('README'),
 )
